@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React from 'react';
+import Invitation from './component/invitation'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div>
+      <Invitation 
+
+      subject="Birthday party Invitation"
+      to="jaGdish@gmail.com"
+      name1="jaGdish"
+      party="birthday party"
+      location="Green field Avenue"
+      friend1="Ritu"
+      friend2="Saurabh"
+      friend3="Kartik"
+
+
+      
+      />
+      </div>
+
   );
 }
 
